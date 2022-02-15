@@ -1,17 +1,20 @@
-## My Project
+# State Machine with sub-minute Loop
 
-TODO: Fill this README out!
+This CDK creates a state machine for a 3 seconds loop to trigger a lambda function.
 
-Be sure to:
+![alt text](assets/state-machine.png)
 
-* Change the title in this README
-* Edit your repository description on GitHub
+## Get Started
 
-## Security
+```sh
+git clone https://github.com/aws-samples/aws-cdk-state-machine-with-sub-minute-loop.git
+cd aws-cdk-state-machine-with-sub-minute-loop
+npm install
+```
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+## Deployment
 
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
+```sh
+npx cdk bootstrap
+npx cdk deploy
+```

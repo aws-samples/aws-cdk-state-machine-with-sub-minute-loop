@@ -1,0 +1,4 @@
+.DS_Store
+node_modules
+cdk.out
+package-lock.json
