@@ -13,7 +13,7 @@ export class CdkStack extends cdk.Stack {
 
     // The lambda function
     const playLambda = new lambda.Function(this, "playLambda", {
-      description: "Lambda function that pulls will be triggered",
+      description: "Lambda function that will be triggered",
       handler: "playLambda.handler",
       runtime: lambda.Runtime.NODEJS_14_X,
       code: lambda.Code.fromInline(`
